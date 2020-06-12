@@ -80,7 +80,8 @@ def month_filter_select():
     return month_input
 
 def day_filter_select():
-    ''' handler for day of week filter'''
+    ''' handler for day of week filter. ask user to enter number related to day of week.
+     any other input is rejected and erro message is generated'''
     day_valid = False
 
     while not day_valid:
