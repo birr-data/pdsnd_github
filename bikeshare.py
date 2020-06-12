@@ -148,7 +148,7 @@ def get_filters():
         print('|             [B]oth - Month & Day                 |')
         pline()
 
-        selected_filter = input("Enter the corresponding letter to apply a filter to results: ")
+        selected_filter = input("Enter the corresponding letter to apply a filter to results \n options are not case-sensitive: ")
         
         if selected_filter.lower() == 'm':
             request_filter = True
